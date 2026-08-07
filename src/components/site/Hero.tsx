@@ -57,7 +57,9 @@ export function Hero() {
           <Reveal delay={320}>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
-                href="#contato"
+                href="https://wa.me/5551982247975?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Zentus%20e%20gostaria%20de%20solicitar%20o%20diagn%C3%B3stico%20gratuito."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-3 rounded-full bg-gold-gradient px-8 py-4 text-xs font-bold tracking-[0.18em] text-primary-foreground uppercase shadow-[var(--shadow-gold)] transition-transform duration-300 hover:scale-[1.03]"
               >
                 Solicitar diagnóstico gratuito

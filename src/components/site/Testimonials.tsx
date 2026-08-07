@@ -92,17 +92,19 @@ export function CTA() {
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="mailto:contato@zentus.com.br"
+            href="https://wa.me/5551982247975?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Zentus%20e%20gostaria%20de%20solicitar%20o%20diagn%C3%B3stico%20gratuito."
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center justify-center gap-3 rounded-full bg-gold-gradient px-9 py-4 text-xs font-bold tracking-[0.18em] text-primary-foreground uppercase shadow-[var(--shadow-gold)] transition-transform duration-300 hover:scale-[1.03]"
           >
             Solicitar diagnóstico gratuito
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </a>
           <a
-            href="tel:+551140028922"
+            href="tel:+5551982247975"
             className="inline-flex items-center justify-center gap-2 rounded-full border border-border px-8 py-4 text-xs font-semibold tracking-[0.18em] text-foreground uppercase transition-colors hover:border-gold/50 hover:text-gold"
           >
-            <Phone className="h-4 w-4" /> (11) 4002-8922
+            <Phone className="h-4 w-4" /> (51) 98224-7975
           </a>
         </div>
       </Reveal>
@@ -137,7 +139,7 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Phone className="h-4 w-4 shrink-0 text-gold" />
-              (11) 4002-8922
+              (51) 98224-7975
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="h-4 w-4 shrink-0 text-gold" />
