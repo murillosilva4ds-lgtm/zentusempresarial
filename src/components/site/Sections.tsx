@@ -181,7 +181,7 @@ export function Marquee() {
 
 export function Services() {
   return (
-    <section id="solucoes" className="relative px-5 py-24 md:px-8 md:py-32">
+    <section id="solucoes" className="relative px-5 py-14 md:px-8 md:py-20">
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Nossas soluções"
@@ -224,7 +224,7 @@ export function Services() {
 
 export function Manifesto() {
   return (
-    <section className="relative overflow-hidden border-y border-border/50 bg-surface/20 px-5 py-24 md:px-8 md:py-32">
+    <section className="relative overflow-hidden border-y border-border/50 bg-surface/20 px-5 py-14 md:px-8 md:py-20">
       <div
         aria-hidden="true"
         className="animate-glow pointer-events-none absolute top-1/2 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold/10 blur-[130px]"
@@ -242,7 +242,7 @@ export function Manifesto() {
 
 export function Differentials() {
   return (
-    <section id="diferenciais" className="relative px-5 py-24 md:px-8 md:py-32">
+    <section id="diferenciais" className="relative px-5 py-14 md:px-8 md:py-20">
       <div
         aria-hidden="true"
         className="animate-glow pointer-events-none absolute top-1/3 left-[-15%] h-[30rem] w-[30rem] rounded-full bg-gold/8 blur-[130px]"
@@ -280,7 +280,7 @@ export function Process() {
   return (
     <section
       id="processo"
-      className="relative border-y border-border/50 bg-surface/30 px-5 py-24 md:px-8 md:py-32"
+      className="relative border-y border-border/50 bg-surface/30 px-5 py-14 md:px-8 md:py-20"
     >
       <div className="mx-auto max-w-7xl">
         <SectionHeading

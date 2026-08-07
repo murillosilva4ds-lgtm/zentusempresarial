@@ -1,5 +1,5 @@
 import { Quote, Star, ArrowRight, Mail, Phone, MapPin, Building2 } from "lucide-react";
-import logoAsset from "@/assets/zentus-logo.png.asset.json";
+import logoAsset from "@/assets/zentus-logo-v2.png.asset.json";
 import { Reveal } from "./Reveal";
 import {
   ADDRESS_LINE_1,
@@ -41,7 +41,7 @@ const testimonials = [
 
 export function Testimonials() {
   return (
-    <section id="depoimentos" className="px-5 py-24 md:px-8 md:py-32">
+    <section id="depoimentos" className="px-5 py-14 md:px-8 md:py-20">
       <div className="mx-auto max-w-7xl">
         <Reveal className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold tracking-[0.28em] text-gold uppercase">
@@ -82,7 +82,7 @@ export function CTA() {
   return (
     <section
       id="contato"
-      className="relative overflow-hidden border-y border-border/50 bg-surface/30 px-5 py-24 md:px-8 md:py-32"
+      className="relative overflow-hidden border-y border-border/50 bg-surface/30 px-5 py-14 md:px-8 md:py-20"
     >
       <div
         aria-hidden="true"
