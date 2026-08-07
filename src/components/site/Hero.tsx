@@ -1,12 +1,14 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import cardsVisual from "@/assets/cards-visual.jpg";
 import { Reveal } from "./Reveal";
+import { WHATSAPP_DIAGNOSTICO } from "@/lib/contact";
 
 const metrics = [
-  { value: "R$ 180M+", label: "recuperados e renegociados" },
-  { value: "420+", label: "empresas atendidas" },
-  { value: "18 anos", label: "de experiência tributária" },
-  { value: "97%", label: "de clientes que renovam" },
+  { value: "8 anos", label: "de experiência em consultoria estratégica" },
+  { value: "Tributário", label: "planejamento e recuperação de tributos" },
+  { value: "Bancário", label: "raio x de contratos e revisão de juros" },
+  { value: "Patrimonial", label: "holding e blindagem do patrimônio" },
 ];
 
 export function Hero() {
@@ -29,60 +31,80 @@ export function Hero() {
         className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-linear-to-b from-transparent to-background"
       />
 
-      <div className="relative mx-auto max-w-7xl px-5 pt-36 pb-24 md:px-8 md:pt-48 md:pb-32">
-        <div className="max-w-3xl">
-          <Reveal>
-            <span className="inline-flex items-center gap-2.5 rounded-full border border-gold/30 bg-gold/5 px-4 py-2 text-[0.68rem] font-medium tracking-[0.28em] text-gold uppercase">
-              <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-              Consultoria Estratégica
-            </span>
-          </Reveal>
+      <div className="relative mx-auto max-w-7xl px-5 pt-32 pb-20 md:px-8 md:pt-44 md:pb-24">
+        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+          <div>
+            <Reveal>
+              <span className="inline-flex items-center gap-2.5 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-xs font-semibold tracking-[0.24em] text-gold uppercase">
+                <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+                Consultoria Estratégica Empresarial
+              </span>
+            </Reveal>
 
-          <Reveal delay={120}>
-            <h1 className="mt-8 text-5xl leading-[1.05] text-balance md:text-7xl">
-              Transformamos <em className="shine-text not-italic">dívidas</em>,
-              riscos e bloqueios em{" "}
-              <span className="text-gradient-gold">estratégias de crescimento</span>
-            </h1>
-          </Reveal>
+            <Reveal delay={120}>
+              <h1 className="mt-8 text-5xl leading-[1.05] text-balance md:text-7xl">
+                Mais que consultoria.{" "}
+                <em className="shine-text not-italic">Estratégia</em> para
+                proteger e{" "}
+                <span className="text-gradient-gold">fortalecer sua empresa</span>
+              </h1>
+            </Reveal>
 
-          <Reveal delay={220}>
-            <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-              A Zentus identifica oportunidades ocultas, reduz passivos
-              financeiros, protege patrimônios e desenvolve estratégias para
-              fortalecer empresas e empresários.
-            </p>
-          </Reveal>
+            <Reveal delay={220}>
+              <p className="mt-8 max-w-xl text-lg leading-relaxed text-foreground/80 md:text-xl">
+                Empresas não quebram apenas por dívidas — elas enfraquecem pela
+                ausência de planejamento, estrutura e inteligência tributária. A
+                Zentus atua no tributário, bancário e patrimonial para transformar
+                problemas em resultados reais.
+              </p>
+            </Reveal>
 
-          <Reveal delay={320}>
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a
-                href="https://wa.me/5551982247975?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Zentus%20e%20gostaria%20de%20solicitar%20o%20diagn%C3%B3stico%20gratuito."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center justify-center gap-3 rounded-full bg-gold-gradient px-8 py-4 text-xs font-bold tracking-[0.18em] text-primary-foreground uppercase shadow-[var(--shadow-gold)] transition-transform duration-300 hover:scale-[1.03]"
-              >
-                Solicitar diagnóstico gratuito
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </a>
-              <a
-                href="#solucoes"
-                className="inline-flex items-center justify-center rounded-full border border-border px-8 py-4 text-xs font-semibold tracking-[0.18em] text-foreground uppercase transition-colors hover:border-gold/50 hover:text-gold"
-              >
-                Conhecer soluções
-              </a>
+            <Reveal delay={320}>
+              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+                <a
+                  href={WHATSAPP_DIAGNOSTICO}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center justify-center gap-3 rounded-full bg-gold-gradient px-8 py-4 text-sm font-bold tracking-[0.14em] text-primary-foreground uppercase shadow-[var(--shadow-gold)] transition-transform duration-300 hover:scale-[1.03]"
+                >
+                  Solicitar diagnóstico gratuito
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </a>
+                <a
+                  href="#solucoes"
+                  className="inline-flex items-center justify-center rounded-full border border-border px-8 py-4 text-sm font-semibold tracking-[0.14em] text-foreground uppercase transition-colors hover:border-gold/60 hover:text-gold"
+                >
+                  Conhecer soluções
+                </a>
+              </div>
+            </Reveal>
+          </div>
+
+          <Reveal delay={260}>
+            <div className="relative mx-auto max-w-md lg:max-w-none">
+              <div
+                aria-hidden="true"
+                className="animate-glow absolute -inset-6 rounded-[2.5rem] bg-gold/15 blur-3xl"
+              />
+              <img
+                src={cardsVisual}
+                alt="Cartões premium e indicadores financeiros representando crédito e saúde financeira"
+                width={1024}
+                height={1280}
+                className="animate-float relative w-full rounded-[2rem] border border-gold/25 object-cover shadow-[var(--shadow-elegant)]"
+              />
             </div>
           </Reveal>
         </div>
 
         <Reveal delay={420}>
-          <dl className="mt-20 grid grid-cols-2 gap-x-6 gap-y-10 border-t border-border/60 pt-10 lg:grid-cols-4">
+          <dl className="mt-16 grid grid-cols-2 gap-x-6 gap-y-10 border-t border-border/60 pt-10 lg:grid-cols-4">
             {metrics.map((m) => (
               <div key={m.label} className="min-w-0">
                 <dt className="font-display text-3xl text-gradient-gold md:text-4xl">
                   {m.value}
                 </dt>
-                <dd className="mt-2 text-xs leading-relaxed tracking-wide text-muted-foreground">
+                <dd className="mt-2 text-sm leading-relaxed text-foreground/75">
                   {m.label}
                 </dd>
               </div>
@@ -90,8 +112,8 @@ export function Hero() {
           </dl>
         </Reveal>
 
-        <div className="mt-16 flex flex-col items-center gap-2">
-          <span className="text-[0.6rem] tracking-[0.4em] text-muted-foreground uppercase">
+        <div className="mt-12 flex flex-col items-center gap-2">
+          <span className="text-xs tracking-[0.3em] text-foreground/70 uppercase">
             Explorar
           </span>
           <ChevronDown className="animate-scroll-hint h-4 w-4 text-gold" />
