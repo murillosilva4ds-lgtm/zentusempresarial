@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/zentus-logo.png.asset.json";
+import logoAsset from "@/assets/zentus-logo-v2.png.asset.json";
 import { cn } from "@/lib/utils";
 import { WHATSAPP_ESPECIALISTA } from "@/lib/contact";
 
