@@ -1,7 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/site/Nav";
 import { Hero } from "@/components/site/Hero";
-import { Marquee, Services, Differentials, Process } from "@/components/site/Sections";
+import {
+  Marquee,
+  Services,
+  Manifesto,
+  Differentials,
+  Process,
+} from "@/components/site/Sections";
+
 import { Testimonials, CTA, Footer } from "@/components/site/Testimonials";
 
 const title = "Zentus — Consultoria Estratégica e Créditos Tributários";
