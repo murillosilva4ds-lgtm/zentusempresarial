@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import cardsVisual from "@/assets/cards-visual.jpg";
+import heroAbstract from "@/assets/hero-abstract.jpg";
 import { Reveal } from "./Reveal";
 import { WHATSAPP_DIAGNOSTICO } from "@/lib/contact";
 
@@ -84,14 +84,15 @@ export function Hero() {
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div
                 aria-hidden="true"
-                className="animate-glow absolute -inset-6 rounded-[2.5rem] bg-gold/15 blur-3xl"
+                className="animate-glow absolute -inset-10 rounded-[3rem] bg-gold/10 blur-3xl"
               />
               <img
-                src={cardsVisual}
-                alt="Cartões premium e indicadores financeiros representando crédito e saúde financeira"
-                width={1024}
-                height={1280}
-                className="animate-float relative w-full rounded-[2rem] border border-gold/25 object-cover shadow-[var(--shadow-elegant)]"
+                src={heroAbstract}
+                alt=""
+                aria-hidden="true"
+                width={1536}
+                height={1024}
+                className="animate-float relative w-full rounded-[2rem] border border-gold/15 object-cover opacity-45 shadow-[var(--shadow-elegant)]"
               />
             </div>
           </Reveal>
