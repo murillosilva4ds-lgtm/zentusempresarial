@@ -1,7 +1,7 @@
-export const PHONE_DISPLAY = "(51) 8047-4973";
-export const PHONE_TEL = "+555180474973";
+export const PHONE_DISPLAY = "(51) 98047-4973";
+export const PHONE_TEL = "+5551980474973";
 
-const WA_BASE = "https://wa.me/555180474973?text=";
+const WA_BASE = "https://wa.me/5551980474973?text=";
 
 export const WHATSAPP_DIAGNOSTICO =
   WA_BASE +

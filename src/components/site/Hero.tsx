@@ -60,7 +60,7 @@ export function Hero() {
             </Reveal>
 
             <Reveal delay={320}>
-              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a
                   href={WHATSAPP_DIAGNOSTICO}
                   target="_blank"
@@ -80,7 +80,7 @@ export function Hero() {
             </Reveal>
           </div>
 
-          <Reveal delay={260}>
+          <Reveal delay={260} className="hidden lg:block">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div
                 aria-hidden="true"
@@ -92,14 +92,14 @@ export function Hero() {
                 aria-hidden="true"
                 width={1536}
                 height={1024}
-                className="animate-float relative w-full rounded-[2rem] border border-gold/15 object-cover opacity-45 shadow-[var(--shadow-elegant)]"
+                className="animate-float relative w-full rounded-[2rem] border border-gold/15 object-cover opacity-35 shadow-[var(--shadow-elegant)]"
               />
             </div>
           </Reveal>
         </div>
 
         <Reveal delay={420}>
-          <dl className="mt-16 grid grid-cols-2 gap-x-6 gap-y-10 border-t border-border/60 pt-10 lg:grid-cols-4">
+          <dl className="mt-10 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-border/60 pt-8 lg:grid-cols-4">
             {metrics.map((m) => (
               <div key={m.label} className="min-w-0">
                 <dt className="font-display text-3xl text-gradient-gold md:text-4xl">
@@ -113,7 +113,7 @@ export function Hero() {
           </dl>
         </Reveal>
 
-        <div className="mt-12 flex flex-col items-center gap-2">
+        <div className="mt-8 flex flex-col items-center gap-2">
           <span className="text-xs tracking-[0.3em] text-foreground/70 uppercase">
             Explorar
           </span>
