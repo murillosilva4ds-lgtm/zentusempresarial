@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/zentus-logo.png.asset.json";
+import logo from "@/assets/zentus-logo.png";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -33,11 +33,11 @@ export function Nav() {
       <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 md:px-8">
         <a href="#top" className="flex min-w-0 items-center gap-3">
           <img
-            src={logo.url}
+            src={logo}
             alt="Zentus — consultoria estratégica"
-            className="h-11 w-auto shrink-0 rounded-md"
-            width={140}
-            height={44}
+            className="h-12 w-auto shrink-0"
+            width={175}
+            height={50}
           />
         </a>
 
