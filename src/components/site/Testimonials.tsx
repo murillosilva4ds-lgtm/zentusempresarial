@@ -1,5 +1,5 @@
 import { Quote, Star, ArrowRight, Mail, Phone, MapPin } from "lucide-react";
-import logo from "@/assets/zentus-logo.png.asset.json";
+import logo from "@/assets/zentus-logo.png";
 import { Reveal } from "./Reveal";
 
 const testimonials = [
@@ -119,11 +119,11 @@ export function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="max-w-sm">
             <img
-              src={logo.url}
+              src={logo}
               alt="Zentus"
-              className="h-12 w-auto rounded-md"
-              width={150}
-              height={48}
+              className="h-14 w-auto"
+              width={200}
+              height={58}
               loading="lazy"
             />
             <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
