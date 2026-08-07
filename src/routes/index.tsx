@@ -37,7 +37,9 @@ function Index() {
         <Hero />
         <Marquee />
         <Services />
+        <Manifesto />
         <Differentials />
+
         <Process />
         <Testimonials />
         <CTA />
