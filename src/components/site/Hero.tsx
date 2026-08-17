@@ -44,7 +44,7 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-7xl px-5 pt-32 pb-20 md:px-8 md:pt-44 md:pb-24">
-        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="max-w-3xl">
           <div>
             <Reveal>
               <span className="inline-flex items-center gap-2.5 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-xs font-semibold tracking-[0.24em] text-gold uppercase">
