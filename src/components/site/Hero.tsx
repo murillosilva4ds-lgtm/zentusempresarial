@@ -22,6 +22,18 @@ export function Hero() {
         height={1200}
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-70"
       />
+      <img
+        src={heroCity}
+        alt=""
+        aria-hidden="true"
+        width={1317}
+        height={707}
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-30 mix-blend-screen"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-linear-to-r from-background via-background/80 to-background/40"
+      />
       <div
         aria-hidden="true"
         className="animate-glow pointer-events-none absolute -top-32 right-[-10%] h-[36rem] w-[36rem] rounded-full bg-gold/12 blur-[120px]"
