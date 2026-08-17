@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Zentus — Consultoria Estratégica" },
+      { title: "Zentus — Consultoria Estratégica e Blindagem Financeira" },
       {
         name: "description",
         content:
-          "Consultoria estratégica em créditos tributários, reestruturação de dívidas e blindagem patrimonial.",
+          "Consultoria estratégica, blindagem financeira e créditos tributários para empresas que querem crescer com segurança.",
       },
       { name: "author", content: "Zentus" },
       { property: "og:type", content: "website" },
