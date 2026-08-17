@@ -92,22 +92,6 @@ export function Hero() {
             </Reveal>
           </div>
 
-          <Reveal delay={260} className="hidden lg:block">
-            <div className="relative mx-auto max-w-md lg:max-w-none">
-              <div
-                aria-hidden="true"
-                className="animate-glow absolute -inset-10 rounded-[3rem] bg-gold/10 blur-3xl"
-              />
-              <img
-                src={heroAbstract}
-                alt=""
-                aria-hidden="true"
-                width={1536}
-                height={1024}
-                className="animate-float relative w-full rounded-[2rem] border border-gold/15 object-cover opacity-35 shadow-[var(--shadow-elegant)]"
-              />
-            </div>
-          </Reveal>
         </div>
 
         <Reveal delay={420}>
