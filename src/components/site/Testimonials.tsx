@@ -1,5 +1,4 @@
 import { Quote, Star, ArrowRight, Mail, Phone, MapPin, Building2 } from "lucide-react";
-import logoAsset from "@/assets/zentus-logo.png";
 import { Reveal } from "./Reveal";
 import {
   ADDRESS_LINE_1,
@@ -130,7 +129,7 @@ export function Footer() {
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div className="max-w-sm">
             <img
-              src={logoAsset}
+              src="/zentus-logo.png"
               alt="Zentus"
               className="h-14 w-auto"
               width={200}
