@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import heroAbstract from "@/assets/hero-abstract.jpg";
+import heroCity from "@/assets/hero-city.jpg";
 import { Reveal } from "./Reveal";
 import { WHATSAPP_DIAGNOSTICO } from "@/lib/contact";
 
@@ -22,6 +22,18 @@ export function Hero() {
         height={1200}
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-70"
       />
+      <img
+        src={heroCity}
+        alt=""
+        aria-hidden="true"
+        width={1317}
+        height={707}
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-30 mix-blend-screen"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-linear-to-r from-background via-background/80 to-background/40"
+      />
       <div
         aria-hidden="true"
         className="animate-glow pointer-events-none absolute -top-32 right-[-10%] h-[36rem] w-[36rem] rounded-full bg-gold/12 blur-[120px]"
@@ -32,7 +44,7 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-7xl px-5 pt-32 pb-20 md:px-8 md:pt-44 md:pb-24">
-        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="max-w-3xl">
           <div>
             <Reveal>
               <span className="inline-flex items-center gap-2.5 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-xs font-semibold tracking-[0.24em] text-gold uppercase">
@@ -80,22 +92,6 @@ export function Hero() {
             </Reveal>
           </div>
 
-          <Reveal delay={260} className="hidden lg:block">
-            <div className="relative mx-auto max-w-md lg:max-w-none">
-              <div
-                aria-hidden="true"
-                className="animate-glow absolute -inset-10 rounded-[3rem] bg-gold/10 blur-3xl"
-              />
-              <img
-                src={heroAbstract}
-                alt=""
-                aria-hidden="true"
-                width={1536}
-                height={1024}
-                className="animate-float relative w-full rounded-[2rem] border border-gold/15 object-cover opacity-35 shadow-[var(--shadow-elegant)]"
-              />
-            </div>
-          </Reveal>
         </div>
 
         <Reveal delay={420}>
