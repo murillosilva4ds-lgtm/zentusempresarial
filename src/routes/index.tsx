@@ -11,9 +11,9 @@ import {
 
 import { Testimonials, CTA, Footer } from "@/components/site/Testimonials";
 
-const title = "Zentus — Consultoria Estratégica e Créditos Tributários";
+const title = "Zentus — Consultoria Estratégica e Blindagem Financeira";
 const description =
-  "A Zentus recupera créditos tributários, reestrutura dívidas e blinda patrimônios. Diagnóstico gratuito e sem compromisso para sua empresa crescer com segurança.";
+  "A Zentus atua em consultoria estratégica, blindagem financeira e créditos tributários. Diagnóstico gratuito e sem compromisso para sua empresa crescer com segurança.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
