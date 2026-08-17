@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import heroAbstract from "@/assets/hero-abstract.jpg";
+import heroCity from "@/assets/hero-city.jpg";
 import { Reveal } from "./Reveal";
 import { WHATSAPP_DIAGNOSTICO } from "@/lib/contact";
 
